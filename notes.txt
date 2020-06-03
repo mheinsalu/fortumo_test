@@ -1,0 +1,2 @@
+In a standard servlet-based Spring web application, every new HTTP request generates a new thread. If the container creates a new bean instance just for that particular request, we can say this bean is thread-safe.
+
