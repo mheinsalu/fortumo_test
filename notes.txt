@@ -4,3 +4,5 @@ NumberHolderUtil.stallForEndMessage will call Thread.sleep for a limited number 
 
 JSON messages tested with Postman. Sent parallel requests.
 Static code check performed with Spotbugs.
+
+FortumoServiceTest doesn't work.
