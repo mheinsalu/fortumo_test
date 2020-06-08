@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
     <modelVersion>4.0.0</modelVersion>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -10,13 +12,13 @@
     </parent>
     <groupId>ee.mrtnh</groupId>
     <artifactId>fortumo_test</artifactId>
-    <version>0.5</version>
+    <version>1.0</version>
     <packaging>war</packaging>
     <name>fortumo_test</name>
     <description>Fortumo's task for Software Engineer applicant</description>
 
     <properties>
-        <java.version>12</java.version>
+        <java.version>11</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -46,6 +48,12 @@
                     <artifactId>junit-vintage-engine</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>com.vmlens</groupId>
+            <artifactId>concurrent-junit</artifactId>
+            <version>1.0.0</version>
         </dependency>
     </dependencies>
 

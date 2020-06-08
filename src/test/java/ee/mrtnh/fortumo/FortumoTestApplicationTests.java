@@ -5,7 +5,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class FortumoTestApplicationTests {
-    // TODO: implement tests. TDD
+    
     @Test
     void contextLoads() {
     }
