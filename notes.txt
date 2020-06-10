@@ -2,7 +2,9 @@ In a standard servlet-based Spring web application, every new HTTP request gener
 
 NumberHolderUtil.stallForEndMessage will call Thread.sleep for a limited number of times to prevent endless loop.
 
-JSON messages tested with Postman. Sent parallel requests.
+JSON messages tested with JMeter and Postman. Sent parallel requests.
 Static code check performed with Spotbugs.
 
 FortumoServiceTest doesn't work.
+
+AsyncConfiguration: application works when the number of concurrent requests is less than corepoolsize when "end" arrives

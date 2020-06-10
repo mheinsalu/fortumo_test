@@ -12,7 +12,7 @@
     </parent>
     <groupId>ee.mrtnh</groupId>
     <artifactId>fortumo_test</artifactId>
-    <version>1.0</version>
+    <version>0.9</version>
     <packaging>war</packaging>
     <name>fortumo_test</name>
     <description>Fortumo's task for Software Engineer applicant</description>

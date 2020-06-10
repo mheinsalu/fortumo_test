@@ -16,7 +16,7 @@ public class NumberHolderUtil {
     static boolean isEnd = false;
 
     static final int SLEEP_TIME_MS = 1000;
-    static final int MAX_CYCLES = 10;
+    static final int MAX_CYCLES = 100;
 
     public static void addNumberToList(Long number) {
         log.debug("Adding number " + number + " to list");
@@ -51,6 +51,7 @@ public class NumberHolderUtil {
             log.debug("\"End\" request has not arrived. Thread has slept for " + counter + " cycles. Thread will sleep for " + SLEEP_TIME_MS + "ms");
             Thread.sleep(SLEEP_TIME_MS);
             counter++;
+            log.debug("Sleep counter is " + counter + " on thread " + Thread.currentThread());
             if (counter == MAX_CYCLES) {
                 String message = "Could not calculate sum. Maximum number of thread sleep cycles reached";
                 log.debug(message);
