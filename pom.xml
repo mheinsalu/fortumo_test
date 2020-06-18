@@ -18,7 +18,7 @@
     <description>Fortumo's task for Software Engineer applicant</description>
 
     <properties>
-        <java.version>11</java.version>
+        <java.version>12</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 

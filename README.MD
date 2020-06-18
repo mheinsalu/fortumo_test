@@ -1,3 +1,3 @@
-Built using Java 11 and Spring Boot. Uses embedded Tomcat server on port 8080. Run in IDE or package into .war and run on Tomcat. To run on external Tomcat, enable/uncomment spring.main.web-application-type=NONE in application.properties.
+Built using Java 12 and Spring Boot. Uses embedded Tomcat server on port 8080. Run in IDE or package into .war and run on Tomcat. To run on external Tomcat, enable/uncomment spring.main.web-application-type=NONE in application.properties.
 
 See assignment.txt for task details. See NOTES.txt for notes on code.

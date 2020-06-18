@@ -1,0 +1,7 @@
++ Good code structure. Handles invalid input
+
++ Extensive logging (possibly a bit overboard even)
+
++ Has unit tests
+
+- Readme is short and free-formed, it is usable but would expect the better structure
