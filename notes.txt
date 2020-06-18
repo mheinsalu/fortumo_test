@@ -7,4 +7,4 @@ Static code check performed with Spotbugs.
 
 FortumoServiceTest doesn't work.
 
-AsyncConfiguration: application works when the number of concurrent requests is less than corepoolsize when "end" arrives
+AsyncConfiguration: application works when the number of concurrent requests is less than CorePoolSize when "end" arrives
